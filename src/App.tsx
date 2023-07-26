@@ -1,10 +1,17 @@
 import React from "react";
+import { Button } from "./Button";
+import { Input } from "./Input";
 
 function App() {
   return (
-    <div className="App">
-      <h1>hello world</h1>
-    </div>
+    <>
+      <Button
+        handleClick={(event, id) => {
+          console.log("Button Clicked", event, id);
+        }}
+      />
+      <Input value="" />
+    </>
   );
 }
 
