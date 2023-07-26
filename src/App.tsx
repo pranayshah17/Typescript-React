@@ -10,7 +10,7 @@ function App() {
           console.log("Button Clicked", event, id);
         }}
       />
-      <Input value="" />
+      <Input value="" handleChange={(event) => console.log(event)} />
     </>
   );
 }
