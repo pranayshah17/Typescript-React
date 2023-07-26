@@ -1,10 +1,16 @@
 import React from "react";
+import Heading from "./Components/Heading";
+import Parent from "./Components/Parent";
 
 function App() {
   return (
-    <div className="App">
-      <h1>hello world</h1>
-    </div>
+    <>
+      <Heading>Good Morning</Heading>;
+      <Parent>
+        <Heading>Good Morning</Heading>
+      </Parent>
+      ;
+    </>
   );
 }
 
