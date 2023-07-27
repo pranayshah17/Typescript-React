@@ -1,11 +1,8 @@
 import React from "react";
+import FetchData from "./FetchData";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>hello world</h1>
-    </div>
-  );
+  return <FetchData />;
 }
 
 export default App;
