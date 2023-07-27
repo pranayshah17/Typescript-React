@@ -1,11 +1,9 @@
 import React from "react";
+import { List } from "./GenericType/List";
+import { ListItems } from "./GenericType/ListItems";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>hello world</h1>
-    </div>
-  );
+  return <ListItems />;
 }
 
 export default App;
